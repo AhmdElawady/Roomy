@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="town-hall-2" translatesAutoresizingMaskIntoConstraints="NO" id="oPI-TY-5N9">
+                                <rect key="frame" x="20" y="44" width="374" height="388"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="388" id="dUs-CH-eT0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Daarak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6F-7A-c4V">
+                                <rect key="frame" x="20" y="440" width="374" height="59"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find your home SMARTLY!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdv-hY-B3x">
+                                <rect key="frame" x="20" y="506" width="374" height="29"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="town-hall-5" translatesAutoresizingMaskIntoConstraints="NO" id="ULx-Hg-4XM">
+                                <rect key="frame" x="20" y="555" width="374" height="144"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ULx-Hg-4XM" firstAttribute="top" secondItem="Bdv-hY-B3x" secondAttribute="bottom" constant="20" id="5SR-9c-qbK"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="trailing" secondItem="oPI-TY-5N9" secondAttribute="trailing" id="BSS-2f-4DY"/>
+                            <constraint firstItem="ULx-Hg-4XM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Box-oM-Wyx"/>
+                            <constraint firstAttribute="bottom" secondItem="Bdv-hY-B3x" secondAttribute="bottom" constant="361" id="HnW-qS-PYJ"/>
+                            <constraint firstItem="oPI-TY-5N9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Hq0-rY-4DB"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="leading" secondItem="I6F-7A-c4V" secondAttribute="leading" id="UNy-0Z-NUu"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="trailing" secondItem="I6F-7A-c4V" secondAttribute="trailing" id="a8A-bS-n2P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ULx-Hg-4XM" secondAttribute="trailing" constant="20" id="etm-Qc-tvW"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="trailing" secondItem="ULx-Hg-4XM" secondAttribute="trailing" id="kGN-Ko-3oe"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="top" secondItem="I6F-7A-c4V" secondAttribute="bottom" constant="7" id="kN0-2F-SEL"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="leading" secondItem="oPI-TY-5N9" secondAttribute="leading" id="rjN-G3-u5C"/>
+                            <constraint firstItem="Bdv-hY-B3x" firstAttribute="leading" secondItem="ULx-Hg-4XM" secondAttribute="leading" id="wLI-gp-Zgb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="town-hall-2" width="512" height="512"/>
+        <image name="town-hall-5" width="489" height="144"/>
+    </resources>
+</document>
