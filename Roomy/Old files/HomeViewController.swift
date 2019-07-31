@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeList: UIViewController {
+class HomeViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
 
@@ -51,7 +51,7 @@ class HomeList: UIViewController {
     }
 }
 
-extension HomeList: UITableViewDataSource, UITableViewDelegate {
+extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return apartments.count
