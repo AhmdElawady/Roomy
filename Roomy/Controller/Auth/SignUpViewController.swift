@@ -13,17 +13,13 @@ import SwiftyJSON
 class SignUpViewController: UIViewController {
     
     @IBOutlet weak var nameTF: UITextField!
-    
     @IBOutlet weak var emailTF: UITextField!
-    
     @IBOutlet weak var passwordTF: UITextField!
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
     }
+    
     @IBAction func signUpPressed(_ sender: Any) {
         
         guard let name = nameTF.text?.trimmed, !name.isEmpty else { return }
@@ -36,6 +32,4 @@ class SignUpViewController: UIViewController {
             }
         }
     }
-    
-    
 }

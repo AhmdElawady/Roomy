@@ -10,6 +10,7 @@ import UIKit
 
 class helper: NSObject {
     
+    // go to home Auto login
     class func restartApp() {
         guard let window = UIApplication.shared.keyWindow else { return }
         

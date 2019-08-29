@@ -18,8 +18,6 @@ class SignInViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-
     }
     
     @IBAction func SignInPressed(_ sender: UIButton) {
@@ -27,11 +25,6 @@ class SignInViewController: UIViewController {
         guard let password = PasswordTF.text, !password.isEmpty else { return }
         
         API.signIn(email: email, password: password) { (error: Error?,success: Bool) in
-            if success {
-                
-            }else {
-                
-            }
         }
     }
 }

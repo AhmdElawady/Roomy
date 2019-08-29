@@ -9,8 +9,8 @@ target 'Roomy' do
   # Pods for Roomy
 
   pod 'SwiftyJSON'
-  pod 'Alamofire' 
-
+  pod 'Alamofire'
+  pod 'RealmSwift'
 
 
 end
